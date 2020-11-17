@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ 
+  color: #435160;
+  font-family: "Open Sans", sans-serif;
+  background-color: #2E3740;
+}
+
+
+h2 {
+  color: #6D7781;
+  font-family: "Sofia", cursive;
+  font-size: 15px;
+  font-weight: bold;
+  font-size: 3.6em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #435160;
+  text-decoration: none;
+}
+
+.login {
+  margin-right: 80px;
+  height: 92%;
+  width: 400px;
+  position: absolute;
+  top: 8%;
+  margin-left: 0px;
+  left: 0px;
+  
+}
+
+textarea,input[type="tel"],input[type="email"],input[type="text"], input[type="password"] {
+  width: 350px;
+  padding: 20px 10px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #435160;
+  outline: none;
+  color: #6D7781;
+  font-size: 16px;
+
+}
+input[type=checkbox] {
+  display: none;
+}
+
+label {
+  display: block;
+  position: absolute;
+  margin-right: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: transparent;
+  content: "";
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: 3px solid #435160;
+}
+
+
+
+input[type="submit"] {
+
+  background: #1FCE6D;
+  border: 0;
+  width: 250px;
+  height: 40px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+  background: #16aa56;
+  animation-name: shake;
+
+}
+
+.agree {
+  padding: 30px 0px;
+  font-size: 12px;
+  text-indent: 25px;
+  line-height: 15px;
+  
+}
+
+
+
+.member{
+  color: white;
+}
+
+.member a{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.member a:hover{
+  font-size: 15px;
+}
+
+img{
+  float: right;
+  position: absolute;
+  top: 23%;
+  right: 0px;
+  background-repeat: no-repeat;
+  width: 60%;
+  height: 65%;
+
+}
+
+.tag{
+  font-weight: 500;
+  color: #ffffff;
+  font-family: "Sofia", cursive;
+  text-align: right; 
+  font-size: 3rem ;
+  padding-right: 100px;
+}

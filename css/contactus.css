@@ -1,0 +1,42 @@
+body{
+  padding:0px;
+  margin: 0;
+   font-family: "Sofia", cursive;
+}
+
+.form-area {
+  background-color: #FAFAFA;
+  padding: 10px 40px 60px;
+  margin: 10px 0px 60px;
+  border: 1px solid GREY;
+  opacity:0.9;
+}
+
+.heading {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+}
+
+
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+}
+
+
+.fa-user:before {
+    padding: 15px;
+    padding-right: 0;
+    color: #9D9D9D;
+}
+
+.fa-shopping-cart:before {
+    padding: 10px;
+    color: #9D9D9D;
+}

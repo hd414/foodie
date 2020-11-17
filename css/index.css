@@ -1,0 +1,42 @@
+.tagline {
+  text-align: center;
+  font-size: 30px;
+  color:#330000;
+  text-shadow: 2px 2px 5px darkgrey;
+  font-family: "Times New Roman";
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 45%;
+  left: 50%;
+}
+
+img {
+  display: inline-block;
+  margin-left: 6%;
+
+}
+
+.block{
+	 margin-left: 6%;
+}
+.btn{
+  margin-left: 4%;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+   font-family: "Sofia", cursive;
+}
+
+.right{
+  position: fixed;
+  top: 8%;
+  right: 0;
+  float: right;
+  height: 100%;
+  width: 70%;
+}
+
+
